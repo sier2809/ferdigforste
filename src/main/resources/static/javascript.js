@@ -48,7 +48,7 @@ type="application/javascript"
     return false;
 }
 
-    const person = {
+    const bilettinfo = {
     film : film,
     antall : antall,
     navn : navn,
@@ -57,7 +57,7 @@ type="application/javascript"
     telefonnr : telefonnr
 };
 
-    biletter.push(person);
+    biletter.push(bilettinfo);
     //sletting av inouttdata og skrive ut
     document.getElementById("film").value="";
     document.getElementById("antall").value="";
