@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.øving</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+<h1>Bestilling av kinobiletter</h1>
+
+<table>
+    <tr>
+        <td>Velg film:
+            <select id="film">
+                <option>Verdens verste menneske</option>
+                <option>Star Wars</option>
+                <option>James Bond</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>antall</td>
+        <td>
+            <input type="text" id="antall"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Fornavnavn</td>
+        <td>
+            <input type="text" id="navn" />
+        </td>
+    </tr>
+    <tr>
+        <td>etternavn</td>
+        <td>
+            <input type="text" id="etternavn"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Epost</td>
+        <td>
+            <input type="text" id="adresse"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Telefonnr</td>
+        <td>
+            <input type="text" id="telefonnr"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="registrer()">
+                Registrer
+            </button>
+        </td>
+    </tr>
+
+</table>
+<h2>Alle biletter</h2>
+<form>
+    <button onclick="slett()">
+        Slett alle billettene
+    </button>
+    <div id="slett"></div>
+</form>
+
+<div id="biletter"></div>
+</body>
+</html>
